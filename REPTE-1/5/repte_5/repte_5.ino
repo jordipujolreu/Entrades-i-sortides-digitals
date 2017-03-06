@@ -39,7 +39,7 @@ void loop()
   
   }
 
-   if(digitalRead(2)){
+  if(digitalRead(2)){
   
   delay(1000);  //espera un segon
 
@@ -49,7 +49,7 @@ void loop()
   digitalWrite(led3, LOW);    
  
    }
-    if(digitalRead(2)){
+  if(digitalRead(2)){
   delay(1000);  //espera un segon
 
   digitalWrite(led0, HIGH);  // donem corrent a les seguuents sortides o no
