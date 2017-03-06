@@ -30,7 +30,8 @@ void setup()
 void loop()
 
 {
-  if(digitalRead(2)){
+  if(digitalRead(2)){ // si es prem el polsador  contarà 
+    
   digitalWrite(led0, HIGH);  // donem corrent a les seguuents sortides o no
   digitalWrite(led1, LOW);  
   digitalWrite(led2, LOW);   
