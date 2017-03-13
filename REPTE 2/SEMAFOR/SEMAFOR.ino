@@ -37,7 +37,7 @@ void loop()
   digitalWrite(BC, LOW);   
   digitalWrite(BV, LOW);   
   
-  delay(a);  //espera un segon
+  delay(a);  //espera a temps
                   
   digitalWrite(AR, HIGH);    // les segunts sortides no tenen corrent o si
   digitalWrite(AC, LOW);     
@@ -46,7 +46,7 @@ void loop()
   digitalWrite(BC, LOW);     
   digitalWrite(BV, HIGH);    
   
-  delay(a);     // espera   
+  delay(a);     // espera a temps  
 
    digitalWrite(AR, HIGH);    // les segunts sortides no tenen corrent o si
   digitalWrite(AC, LOW);     
@@ -55,7 +55,7 @@ void loop()
   digitalWrite(BC, LOW);     
   digitalWrite(BV, HIGH);    
   
-  delay(a);     // espera   
+  delay(a);     // espera a temps 
 
    digitalWrite(AR, HIGH);    // les segunts sortides no tenen corrent o si
   digitalWrite(AC, LOW);     
@@ -64,7 +64,7 @@ void loop()
   digitalWrite(BC, LOW);     
   digitalWrite(BV, HIGH);    
   
-  delay(a);     // espera   
+  delay(a);     // espera a temps
 
    digitalWrite(AR, HIGH);    // les segunts sortides no tenen corrent o si
   digitalWrite(AC, LOW);     
@@ -82,7 +82,7 @@ void loop()
   digitalWrite(BC, HIGH);   
   digitalWrite(BV, LOW);   
   
-  delay(a);  //espera un segon
+  delay(a);  //espera a temps
 
   digitalWrite(AR, HIGH);  // donem corrent a les seguuents sortides o no
   digitalWrite(AC, LOW);  
@@ -91,7 +91,7 @@ void loop()
   digitalWrite(BC, LOW);   
   digitalWrite(BV, LOW);   
   
-  delay(a);  //espera un segon
+  delay(a);  //espera a temps
 
   digitalWrite(AR, LOW);  // donem corrent a les seguuents sortides o no
   digitalWrite(AC, LOW);  
@@ -109,7 +109,7 @@ void loop()
   digitalWrite(BC, LOW);   
   digitalWrite(BV, LOW);   
   
-  delay(a);  //espera un segon
+  delay(a);  //espera a temps
 
   digitalWrite(AR, LOW);  // donem corrent a les seguuents sortides o no
   digitalWrite(AC, LOW);  
@@ -118,7 +118,7 @@ void loop()
   digitalWrite(BC, LOW);   
   digitalWrite(BV, LOW);   
   
-  delay(a);  //espera un segon
+  delay(a);  //espera a temps
 
   digitalWrite(AR, LOW);  // donem corrent a les seguuents sortides o no
   digitalWrite(AC, LOW);  
@@ -127,7 +127,7 @@ void loop()
   digitalWrite(BC, LOW);   
   digitalWrite(BV, LOW);   
   
-  delay(a);  //espera un segon
+  delay(a);  //espera a tempsn
 
   digitalWrite(AR, LOW);  // donem corrent a les seguuents sortides o no
   digitalWrite(AC, HIGH);  
@@ -136,7 +136,7 @@ void loop()
   digitalWrite(BC, LOW);   
   digitalWrite(BV, LOW);   
   
-  delay(a);  //espera un segon
+  delay(a);  //espera a temps
 
   digitalWrite(AR, HIGH);  // donem corrent a les seguuents sortides o no
   digitalWrite(AC, LOW);  
@@ -145,7 +145,7 @@ void loop()
   digitalWrite(BC, LOW);   
   digitalWrite(BV, LOW);   
   
-  delay(a);  //espera un segon
+  delay(a);  //espera a temps
 }
 
 //********** Funcions *************************************************************
