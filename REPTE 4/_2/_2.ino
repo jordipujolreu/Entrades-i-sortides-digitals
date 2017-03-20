@@ -8,12 +8,11 @@
 //********** Includes *************************************************************
 
 //********** Variables ************************************************************
-const int led0 = 5;          // donar nom al pin 5 de l’Arduino
+const int led0 = 8;          // donar nom al pin 5 de l’Arduino
 const int led1 = 6;          // donar nom al pin 6 de l’Arduino
 const int led2 = 7;          // donar nom al pin 7 de l’Arduino
-const int led3 = 8;          // donar nom al pin 8 de l’Arduino
-
-int a = 500;
+const int led3 = 5;          // donar nom al pin 8 de l’Arduino
+int a = 1000;
 const int polsador =2 ;
 long randNumber ;
 
@@ -33,36 +32,36 @@ void setup()
 void loop()
 {
 
-   if(digitalRead(2)){
+  if(digitalRead(2)==HIGH){
 
-   randNumber = random(1,7);
-   Serial.println(randNumber);  
+    randNumber = random(1,7);
+    
    
-
+   }
   if (randNumber == 1 ){
-  digitalWrite(led0, HIGH);  // donem corrent a les seguuents sortides o no
-  digitalWrite(led1, LOW);  
-  digitalWrite(led2, LOW);   
-  digitalWrite(led3, LOW);    
+  digitalWrite(led0, LOW);  // donem corrent a les seguuents sortides o no
+  digitalWrite(led1, HIGH);  
+  digitalWrite(led2, HIGH);   
+  digitalWrite(led3, HIGH);    
  
   delay(a);  //espera mig segon
   }
 
   if (randNumber == 2 ){
-  digitalWrite(led0, LOW);    // les segunts sortides no tenen corrent o si
-  digitalWrite(led1, HIGH);     
-  digitalWrite(led2, LOW);     
-  digitalWrite(led3, LOW);    
+  digitalWrite(led0, HIGH);    // les segunts sortides no tenen corrent o si
+  digitalWrite(led1, LOW);     
+  digitalWrite(led2, HIGH);     
+  digitalWrite(led3, HIGH);    
  
  
   
   delay(a);     // espera   
   }
   if (randNumber == 3 )  {       
-  digitalWrite(led0, HIGH);    // les segunts sortides no tenen corrent o si
-  digitalWrite(led1, LOW);     
-  digitalWrite(led2, HIGH);     
-  digitalWrite(led3, LOW);    
+  digitalWrite(led0, LOW);    // les segunts sortides no tenen corrent o si
+  digitalWrite(led1, HIGH);     
+  digitalWrite(led2, LOW);     
+  digitalWrite(led3, HIGH);    
  
 
   
@@ -71,34 +70,34 @@ void loop()
   delay(a);     // espera   
   }     
   if (randNumber == 4 ){
-  digitalWrite(led0, LOW);    // les segunts sortides no tenen corrent o si
-  digitalWrite(led1, HIGH);     
-  digitalWrite(led2, HIGH);     
-  digitalWrite(led3, LOW);    
+  digitalWrite(led0, HIGH);    // les segunts sortides no tenen corrent o si
+  digitalWrite(led1, LOW);     
+  digitalWrite(led2, LOW);     
+  digitalWrite(led3, HIGH);    
  
   
  
   delay(a);     // espera 
   } 
   if (randNumber == 5 ){
-  digitalWrite(led0, HIGH);    // les segunts sortides no tenen corrent o si
-  digitalWrite(led1, HIGH);     
-  digitalWrite(led2, HIGH);     
-  digitalWrite(led3, LOW);    
+  digitalWrite(led0, LOW);    // les segunts sortides no tenen corrent o si
+  digitalWrite(led1, LOW);     
+  digitalWrite(led2, LOW);     
+  digitalWrite(led3, HIGH);    
  
   delay(a);     // espera  
   }        
   if (randNumber == 6 ){
-  digitalWrite(led0, LOW);    // les segunts sortides no tenen corrent o si
-  digitalWrite(led1, HIGH);     
-  digitalWrite(led2, HIGH);     
-  digitalWrite(led3, HIGH);    
+  digitalWrite(led0, HIGH);    // les segunts sortides no tenen corrent o si
+  digitalWrite(led1, LOW);     
+  digitalWrite(led2, LOW);     
+  digitalWrite(led3, LOW);    
  
  
   
   delay(a);     // espera  
   }
-  }          
+        
 
       
 }
